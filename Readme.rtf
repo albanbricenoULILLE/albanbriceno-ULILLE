@@ -16,10 +16,11 @@ Contact: alban.briceno@univ-lille.fr
 
 2. CNC laser cutting and engraving preprocessing
 
-The operating procedure for laser cutting and engraving may vary from one machine to another.
-As it stands, these files feature 0.1 mm thick lines and two colors: the red lines (255; 0; 0 RGB) are for cutting, while the blue lines  (0; 0; 255 RGB) are for engraving.
-The engraving uses the laser's Vector mode, which lowers its power comparing to cutting. Please use this mode rather than the Raster mode which is not optimal in this case.
-Please note that this system may vary according to the CNC laser used, or may need to be parameterized in its control software. Please edit the .svg file accordingly using editing software (such as Inkscape or CorelDRAW).
+The operating procedure for laser cutting and engraving can differ depending on the machine used.
+In this file, lines are 0.1 mm thick and use two colors: red (RGB 255, 0, 0) for cutting and blue (RGB 0, 0, 255) for engraving.
+The engraving process should be set to the laser’s Vector mode, which reduces power compared to cutting.
+Please avoid using Raster mode, as it is not ideal in this scenario.
+Keep in mind that settings may vary depending on the CNC laser machine, and adjustments might be needed in the control software. Be sure to update the .svg file accordingly using design software like Inkscape or CorelDRAW.
 
 3. Device control / ReaSurroundPan REAPER Preset 
 
@@ -32,9 +33,9 @@ To configure your REAPER session and control the device:
   e. insert a new track, then any virtual instrument or audio input.
   f. ROUTE the track signal to the MASTER "ALL" -> "1-8"; Track channels = 8.
 
-For the best experience, we recommend inserting a low-pass filter after the instrument to cut frequencies above 250 Hz.
-You can control the source using a pointing device (mouse, touchpad, touchsreen, trackball), automation or MIDI hardware interface (fader, pad).
-Be careful not to exceed the peak level or send too much power to the speaker.
+For optimal performance, we recommend applying a low-pass filter after the instrument to reduce frequencies above 250 Hz.
+You can control the source with a pointing device (mouse, touchpad, touchscreen, trackball), automation, or a MIDI hardware interface (such as a fader or pad).
+Take care to avoid exceeding peak levels or overloading the speaker with too much power.
 
 4. Licence
 
